@@ -1,0 +1,16 @@
+<?php echo $this->form; ?>
+
+<script type="text/javascript">
+//<![CDATA[
+Jsw.onReady(function() {
+    tinymce.init({
+        selector:'textarea',
+        plugins: ['code', 'contextmenu', 'table', 'searchreplace', 'fullpage']
+    });
+
+    $('fileData').up('form').down('button[name="send"]').observe('click', function() {
+        $('fileData').value = tinymce.activeEditor.getContent();
+    });
+});
+//]]>
+</script>

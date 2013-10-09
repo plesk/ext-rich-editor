@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<module>
+  <id>rich-editor</id>
+  <name>Rich Editor</name>
+  <description>File manager plugin which introduces modern WYSIWYG editor for HTML files.</description>
+  <version>1.0</version>
+  <release>1</release>
+  <vendor>Parallels, Inc.</vendor>
+  <plesk_min_version>11.5.30</plesk_min_version>
+</module>
