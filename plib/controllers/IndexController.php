@@ -20,7 +20,7 @@ class IndexController extends pm_Controller_Action
         $this->view->pageTitle = $this->lmsg('indexPageTitle') . ': ' 
             . $this->view->escape($currentDir) . '/' . $this->view->escape($file);
 
-        $this->view->headScript()->appendFile("//tinymce.cachefly.net/4.0/tinymce.min.js");
+        $this->view->headScript()->appendFile("//tinymce.cachefly.net/4.1/tinymce.min.js");
 
         $form = new pm_Form_Simple();
 
