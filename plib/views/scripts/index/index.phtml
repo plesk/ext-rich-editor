@@ -6,7 +6,9 @@ Jsw.onReady(function() {
     tinymce.init({
         selector:'textarea',
         plugins: [
-            'link', 'image', 'code', 'contextmenu', 'table', 'searchreplace', 'fullpage'
+            "advlist autolink link image lists charmap print preview hr anchor pagebreak spellchecker",
+            "searchreplace wordcount visualblocks visualchars code fullscreen fullpage insertdatetime media",
+            "nonbreaking table contextmenu directionality emoticons template paste textcolor"
         ],
         relative_urls: true,
         document_base_url: 'http://<?php echo $this->domainName ?>/'
