@@ -5,7 +5,11 @@
 Jsw.onReady(function() {
     tinymce.init({
         selector:'textarea',
-        plugins: ['code', 'contextmenu', 'table', 'searchreplace', 'fullpage']
+        plugins: [
+            'link', 'image', 'code', 'contextmenu', 'table', 'searchreplace', 'fullpage'
+        ],
+        relative_urls: true,
+        document_base_url: 'http://<?php echo $this->domainName ?>/'
     });
 
     $('fileData').up('form').down('button[name="send"]').observe('click', function() {
