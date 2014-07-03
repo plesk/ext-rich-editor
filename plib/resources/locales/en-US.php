@@ -4,7 +4,7 @@ $messages = array(
     'actionTitle' => 'Edit in Rich Editor',
     'indexPageTitle' => 'Rich Editor',
     'fileNameLabel' => 'Edit file',
-    'fileDataSaved' => 'Content was successfully saved.',
+    'fileDataSaved' => 'The changes were saved.',
     'overviewPageTitle' => 'Rich Editor',
-    'overviewDescription' => 'File manager plugin which introduces modern WYSIWYG editor for HTML files.',
+    'overviewDescription' => 'The file manager plugin that introduces a modern WYSIWYG editor for HTML files.',
 );
