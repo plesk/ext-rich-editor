@@ -6,5 +6,5 @@ $messages = array(
     'fileNameLabel' => 'Edit file',
     'fileDataSaved' => 'The changes were saved.',
     'overviewPageTitle' => 'Rich Editor',
-    'overviewDescription' => 'The file manager plugin which introduces a modern WYSIWYG editor for HTML files.',
+    'overviewDescription' => 'The file manager plugin that introduces a modern WYSIWYG editor for HTML files.',
 );
