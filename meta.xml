@@ -3,7 +3,7 @@
 <module>
   <id>rich-editor</id>
   <name>Rich Editor</name>
-  <description>File manager plugin which introduces modern WYSIWYG editor for HTML files.</description>
+  <description>The file manager plugin that introduces a modern WYSIWYG editor for HTML files.</description>
   <version>1.0</version>
   <release>1</release>
   <vendor>Parallels, Inc.</vendor>
