@@ -1,3 +1,5 @@
+### Copyright 1999-2014. Parallels IP Holdings GmbH. All Rights Reserved.
+
 server ENV['HOST'], :web
 set :user, 'root'
 set :deploy_prefix, '/usr/local/psa'
