@@ -5,7 +5,7 @@
   <name>Rich Editor</name>
   <description>The file manager plugin that introduces a modern WYSIWYG editor for HTML files.</description>
   <version>1.0</version>
-  <release>3</release>
+  <release>4</release>
   <vendor>Parallels</vendor>
   <plesk_min_version>11.5.30</plesk_min_version>
 </module>
