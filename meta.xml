@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright 1999-2014. Parallels IP Holdings GmbH. All Rights Reserved. -->
+<!-- Copyright 1999-2015. Parallels IP Holdings GmbH. All Rights Reserved. -->
 <module>
   <id>rich-editor</id>
   <name>Rich Editor</name>
   <description>The file manager plugin that introduces a modern WYSIWYG editor for HTML files.</description>
   <version>1.0</version>
-  <release>4</release>
+  <release>5</release>
   <vendor>Parallels</vendor>
   <plesk_min_version>11.5.30</plesk_min_version>
 </module>
