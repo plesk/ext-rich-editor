@@ -1,5 +1,5 @@
 <?php
-// Copyright 1999-2015. Parallels IP Holdings GmbH. All Rights Reserved.
+// Copyright 1999-2016. Parallels IP Holdings GmbH. All Rights Reserved.
 class Modules_RichEditor_FileManager_Action extends pm_FileManager_Action
 {
     public function getTitle()
