@@ -4,6 +4,8 @@
   <id>rich-editor</id>
   <name>Rich Editor</name>
   <description>The file manager plugin that introduces a modern WYSIWYG editor for HTML files.</description>
+  <category>developer</category>
+  <category>web_app</category>
   <url>https://github.com/plesk/ext-rich-editor</url>
   <version>1.0</version>
   <release>8</release>
