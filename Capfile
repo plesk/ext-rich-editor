@@ -1,4 +1,4 @@
-### Copyright 1999-2016. Parallels IP Holdings GmbH. All Rights Reserved.
+### Copyright 1999-2017. Parallels IP Holdings GmbH. All Rights Reserved.
 
 server ENV['HOST'], :web
 set :user, 'root'
