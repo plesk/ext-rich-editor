@@ -17,10 +17,10 @@ class IndexController extends pm_Controller_Action
         $currentDir = $this->_getParam('currentDir');
         $content = $this->_getFileData($currentDir, $file);
 
-        $this->view->pageTitle = $this->lmsg('indexPageTitle') . ': ' 
+        $this->view->pageTitle = $this->lmsg('indexPageTitle') . ': '
             . $this->view->escape($currentDir) . '/' . $this->view->escape($file);
 
-        $this->view->headScript()->appendFile("//tinymce.cachefly.net/4.1/tinymce.min.js");
+        $this->view->headScript()->appendFile("//cdnjs.cloudflare.com/ajax/libs/tinymce/6.3.1/tinymce.min.js");
 
         $form = new pm_Form_Simple();
 
