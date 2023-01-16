@@ -8,7 +8,7 @@
   <category>web_app</category>
   <url>https://github.com/plesk/ext-rich-editor</url>
   <version>1.0</version>
-  <release>9</release>
+  <release>10</release>
   <vendor>Plesk</vendor>
   <plesk_min_version>11.5.30</plesk_min_version>
 </module>
