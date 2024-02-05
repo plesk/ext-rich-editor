@@ -1,5 +1,5 @@
 <?php
-// Copyright 1999-2017. Parallels IP Holdings GmbH.
+// Copyright 1999-2024. WebPros International GmbH. All rights reserved.
 class Modules_RichEditor_FileManager_Action extends pm_FileManager_Action
 {
     public function getTitle()
@@ -17,6 +17,11 @@ class Modules_RichEditor_FileManager_Action extends pm_FileManager_Action
             'currentDir=' . urlencode($this->_item['currentDir']),
             'file=' . urlencode($this->_item['name']),
         );
+
+        if (isset($this->_item['domainId'])) {
+            $params[] = 'domainId=' . urlencode($this->_item['domainId']);
+        }
+
         return pm_Context::getBaseUrl() . '?' . implode('&', $params);
     }
 

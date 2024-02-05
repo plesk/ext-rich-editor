@@ -1,5 +1,5 @@
 <?php
-// Copyright 1999-2017. Parallels IP Holdings GmbH.
+// Copyright 1999-2024. WebPros International GmbH. All rights reserved.
 class IndexController extends pm_Controller_Action
 {
 
@@ -69,7 +69,7 @@ class IndexController extends pm_Controller_Action
     {
         static $fileManager;
         if (!$fileManager) {
-            $domainId = pm_Session::getCurrentDomain()->getId();
+            $domainId = $this->_hasParam('domainId') ? $this->_getParam('domainId') : pm_Session::getCurrentDomain()->getId();
             $fileManager = new pm_FileManager($domainId);
         }
         return $fileManager;
