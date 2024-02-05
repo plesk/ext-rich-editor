@@ -1,4 +1,4 @@
-# 1.0.2 (5 January 2023)
+# 1.0.2 (5 February 2024)
 
 * [-] Set correct subscription context. (PPPM-14308)
 
