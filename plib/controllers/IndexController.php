@@ -43,7 +43,7 @@ class IndexController extends pm_Controller_Action
         }
 
         $this->view->form = $form;
-        $this->view->domainName = pm_Session::getCurrentDomain()->getName();
+        $this->view->domainName = $this->getDomain()->getName();
     }
 
     public function overviewAction()
@@ -69,10 +69,21 @@ class IndexController extends pm_Controller_Action
     {
         static $fileManager;
         if (!$fileManager) {
-            $domainId = $this->_hasParam('domainId') ? $this->_getParam('domainId') : pm_Session::getCurrentDomain()->getId();
-            $fileManager = new pm_FileManager($domainId);
+            $fileManager = new pm_FileManager($this->getDomain()->getId());
         }
         return $fileManager;
+    }
+
+    private function getDomain()
+    {
+        if ($this->_hasParam('domainId')) {
+            $domainId = $this->_getParam('domainId');
+            if (!pm_Session::getClient()->hasAccessToDomain($domainId)) {
+                throw new pm_Exception(pm_Locale::lmsg('accessDenied'));
+            }
+            return new pm_Domain($domainId);
+        }
+        return pm_Session::getCurrentDomain();
     }
 
 }
