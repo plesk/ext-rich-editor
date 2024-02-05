@@ -7,4 +7,5 @@ $messages = array(
     'fileDataSaved' => 'The changes were saved.',
     'overviewPageTitle' => 'Rich Editor',
     'overviewDescription' => 'The file manager plugin that introduces a modern WYSIWYG editor for HTML files.',
+    'accessDenied' => 'Access denied',
 );
