@@ -9,9 +9,9 @@ Jsw.onReady(function() {
     tinymce.init({
         selector:'textarea',
         plugins: [
-            "advlist autolink link image lists charmap print preview hr anchor pagebreak spellchecker",
-            "searchreplace wordcount visualblocks visualchars code fullscreen fullpage insertdatetime media",
-            "nonbreaking table contextmenu directionality emoticons template paste textcolor"
+            'advlist', 'autolink', 'link', 'image', 'lists', 'charmap', 'preview', 'anchor', 'pagebreak',
+            'searchreplace', 'wordcount', 'visualblocks', 'visualchars', 'code', 'fullscreen', 'insertdatetime', 'media',
+            'nonbreaking', 'table', 'directionality', 'emoticons',
         ],
         relative_urls: true,
         document_base_url: 'http://<?php echo $this->domainName ?>/'
